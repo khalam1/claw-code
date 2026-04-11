@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 WORKDIR /build
 
-# Cache dependencies: copy only manifests first
+# Cache dependencies: copy manifests and lock file, then fetch
 COPY rust/Cargo.toml rust/Cargo.lock ./
 COPY rust/crates/api/Cargo.toml crates/api/Cargo.toml
 COPY rust/crates/commands/Cargo.toml crates/commands/Cargo.toml
@@ -31,7 +31,7 @@ COPY rust/crates/rusty-claude-cli/Cargo.toml crates/rusty-claude-cli/Cargo.toml
 COPY rust/crates/telemetry/Cargo.toml crates/telemetry/Cargo.toml
 COPY rust/crates/tools/Cargo.toml crates/tools/Cargo.toml
 
-# Create stub lib.rs / main.rs for dependency caching
+# Create minimal stub src files so cargo fetch can resolve the workspace
 RUN for d in api commands compat-harness plugins runtime telemetry tools; do \
       mkdir -p "crates/$d/src" && echo "" > "crates/$d/src/lib.rs"; \
     done && \
@@ -39,15 +39,13 @@ RUN for d in api commands compat-harness plugins runtime telemetry tools; do \
     mkdir -p crates/mock-anthropic-service/src && echo "fn main(){}" > crates/mock-anthropic-service/src/main.rs && \
     echo "" > crates/mock-anthropic-service/src/lib.rs
 
-# Pre-build dependencies (cached unless Cargo.toml/lock changes)
+# Download all dependencies (cached unless Cargo.toml/lock changes)
 RUN --mount=type=cache,target=/usr/local/cargo/registry \
-    --mount=type=cache,target=/build/target \
-    cargo build --release --workspace 2>/dev/null || true
+    cargo fetch
 
-# Copy real source code and build
+# Copy real source code and build from scratch
 COPY rust/crates/ crates/
 RUN --mount=type=cache,target=/usr/local/cargo/registry \
-    --mount=type=cache,target=/build/target \
     cargo build --release --workspace && \
     cp target/release/claw /usr/local/bin/claw && \
     cp target/release/mock-anthropic-service /usr/local/bin/mock-anthropic-service

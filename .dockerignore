@@ -1,0 +1,12 @@
+.git
+target
+__pycache__
+archive
+.omx
+.clawd-agents
+.claude
+*.md
+tests
+src
+assets
+docs
