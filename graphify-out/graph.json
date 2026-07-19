@@ -1,0 +1,4437 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "bootstrap-treeview.min 2.js",
+      "file_type": "code",
+      "source_file": "Training/bootstrap-treeview.min 2.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_bootstrap_treeview_min_2",
+      "community": 30,
+      "norm_label": "bootstrap-treeview.min 2.js"
+    },
+    {
+      "label": "bootstrap-treeview.min.js",
+      "file_type": "code",
+      "source_file": "Training/bootstrap-treeview.min.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_bootstrap_treeview_min",
+      "community": 29,
+      "norm_label": "bootstrap-treeview.min.js"
+    },
+    {
+      "label": "build.gradle",
+      "file_type": "code",
+      "source_file": "Training/build.gradle",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_build",
+      "community": 31,
+      "norm_label": "build.gradle"
+    },
+    {
+      "label": "build_dataset.py",
+      "file_type": "code",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_build_dataset",
+      "community": 7,
+      "norm_label": "build_dataset.py"
+    },
+    {
+      "label": "load_conversations()",
+      "file_type": "code",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "training_build_dataset_load_conversations",
+      "community": 7,
+      "norm_label": "load_conversations()"
+    },
+    {
+      "label": "extract_turns()",
+      "file_type": "code",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "training_build_dataset_extract_turns",
+      "community": 7,
+      "norm_label": "extract_turns()"
+    },
+    {
+      "label": "build_instruction_pairs()",
+      "file_type": "code",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "training_build_dataset_build_instruction_pairs",
+      "community": 7,
+      "norm_label": "build_instruction_pairs()"
+    },
+    {
+      "label": "extract_personal_knowledge()",
+      "file_type": "code",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L127",
+      "_origin": "ast",
+      "id": "training_build_dataset_extract_personal_knowledge",
+      "community": 7,
+      "norm_label": "extract_personal_knowledge()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L179",
+      "_origin": "ast",
+      "id": "training_build_dataset_main",
+      "community": 7,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Walk the conversation tree and extract ordered (user, assistant) turn pairs.",
+      "file_type": "rationale",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "training_build_dataset_rationale_27",
+      "community": 7,
+      "norm_label": "walk the conversation tree and extract ordered (user, assistant) turn pairs."
+    },
+    {
+      "label": "Convert conversations into instruction-tuning format.          Output format (co",
+      "file_type": "rationale",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L70",
+      "_origin": "ast",
+      "id": "training_build_dataset_rationale_70",
+      "community": 7,
+      "norm_label": "convert conversations into instruction-tuning format.          output format (co"
+    },
+    {
+      "label": "Extract conversations likely containing personal information.          Categorie",
+      "file_type": "rationale",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "training_build_dataset_rationale_128",
+      "community": 7,
+      "norm_label": "extract conversations likely containing personal information.          categorie"
+    },
+    {
+      "label": "build_knowledge_base.py",
+      "file_type": "code",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_build_knowledge_base",
+      "community": 8,
+      "norm_label": "build_knowledge_base.py"
+    },
+    {
+      "label": "load_knowledge()",
+      "file_type": "code",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "training_build_knowledge_base_load_knowledge",
+      "community": 8,
+      "norm_label": "load_knowledge()"
+    },
+    {
+      "label": "extract_user_messages()",
+      "file_type": "code",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "training_build_knowledge_base_extract_user_messages",
+      "community": 8,
+      "norm_label": "extract_user_messages()"
+    },
+    {
+      "label": "extract_key_facts()",
+      "file_type": "code",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "training_build_knowledge_base_extract_key_facts",
+      "community": 8,
+      "norm_label": "extract_key_facts()"
+    },
+    {
+      "label": "build_system_prompt()",
+      "file_type": "code",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L99",
+      "_origin": "ast",
+      "id": "training_build_knowledge_base_build_system_prompt",
+      "community": 8,
+      "norm_label": "build_system_prompt()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L160",
+      "_origin": "ast",
+      "id": "training_build_knowledge_base_main",
+      "community": 8,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Get all user messages grouped by category.",
+      "file_type": "rationale",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "training_build_knowledge_base_rationale_28",
+      "community": 8,
+      "norm_label": "get all user messages grouped by category."
+    },
+    {
+      "label": "Extract structured facts from conversation titles and user messages.",
+      "file_type": "rationale",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "training_build_knowledge_base_rationale_38",
+      "community": 8,
+      "norm_label": "extract structured facts from conversation titles and user messages."
+    },
+    {
+      "label": "Build a condensed system prompt with personal knowledge.",
+      "file_type": "rationale",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "training_build_knowledge_base_rationale_100",
+      "community": 8,
+      "norm_label": "build a condensed system prompt with personal knowledge."
+    },
+    {
+      "label": "chartist-plugin-tooltip.min 2.js",
+      "file_type": "code",
+      "source_file": "Training/chartist-plugin-tooltip.min 2.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_chartist_plugin_tooltip_min_2",
+      "community": 35,
+      "norm_label": "chartist-plugin-tooltip.min 2.js"
+    },
+    {
+      "label": "chartist-plugin-tooltip.min.js",
+      "file_type": "code",
+      "source_file": "Training/chartist-plugin-tooltip.min.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_chartist_plugin_tooltip_min",
+      "community": 34,
+      "norm_label": "chartist-plugin-tooltip.min.js"
+    },
+    {
+      "label": "chartist.min 2.js",
+      "file_type": "code",
+      "source_file": "Training/chartist.min 2.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_chartist_min_2",
+      "community": 33,
+      "norm_label": "chartist.min 2.js"
+    },
+    {
+      "label": "chartist.min.js",
+      "file_type": "code",
+      "source_file": "Training/chartist.min.js",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_chartist_min",
+      "community": 32,
+      "norm_label": "chartist.min.js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_package",
+      "community": 4,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L2",
+      "_origin": "ast",
+      "id": "training_package_name",
+      "community": 4,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "training_package_version",
+      "community": 4,
+      "norm_label": "version"
+    },
+    {
+      "label": "main",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L4",
+      "_origin": "ast",
+      "id": "training_package_main",
+      "community": 4,
+      "norm_label": "main"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "training_package_scripts",
+      "community": 4,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "keywords",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L6",
+      "_origin": "ast",
+      "id": "training_package_keywords",
+      "community": 4,
+      "norm_label": "keywords"
+    },
+    {
+      "label": "author",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "training_package_author",
+      "community": 4,
+      "norm_label": "author"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "training_package_license",
+      "community": 4,
+      "norm_label": "license"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "training_package_description",
+      "community": 4,
+      "norm_label": "description"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "training_package_devdependencies",
+      "community": 4,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@playwright/test",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "training_package_devdependencies_playwright_test",
+      "community": 4,
+      "norm_label": "@playwright/test"
+    },
+    {
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "Training/package.json",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "training_package_devdependencies_types_node",
+      "community": 4,
+      "norm_label": "@types/node"
+    },
+    {
+      "label": "net.serenitybdd.starter:cucumber-starter",
+      "file_type": "code",
+      "type": "package",
+      "ecosystem": "maven",
+      "source_file": "Training/pom.xml",
+      "source_location": "L1",
+      "version": "1.0.0-SNAPSHOT",
+      "_origin": "ast",
+      "id": "pkg_net_serenitybdd_starter_cucumber_starter",
+      "community": 28,
+      "norm_label": "net.serenitybdd.starter:cucumber-starter"
+    },
+    {
+      "label": "train_custom.py",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_train_custom",
+      "community": 3,
+      "norm_label": "train_custom.py"
+    },
+    {
+      "label": "loss_fn()",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "training_train_custom_loss_fn",
+      "community": 3,
+      "norm_label": "loss_fn()"
+    },
+    {
+      "label": "tokenize_sample()",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "training_train_custom_tokenize_sample",
+      "community": 3,
+      "norm_label": "tokenize_sample()"
+    },
+    {
+      "label": "evaluate()",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "training_train_custom_evaluate",
+      "community": 3,
+      "norm_label": "evaluate()"
+    },
+    {
+      "label": "SimpleDataLoader",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L101",
+      "_origin": "ast",
+      "id": "training_train_custom_simpledataloader",
+      "community": 3,
+      "norm_label": "simpledataloader"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "training_train_custom_simpledataloader_init",
+      "community": 3,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L113",
+      "_origin": "ast",
+      "id": "training_train_custom_simpledataloader_reset",
+      "community": 3,
+      "norm_label": ".reset()"
+    },
+    {
+      "label": ".__iter__()",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L118",
+      "_origin": "ast",
+      "id": "training_train_custom_simpledataloader_iter",
+      "community": 3,
+      "norm_label": ".__iter__()"
+    },
+    {
+      "label": ".__next__()",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L121",
+      "_origin": "ast",
+      "id": "training_train_custom_simpledataloader_next",
+      "community": 3,
+      "norm_label": ".__next__()"
+    },
+    {
+      "label": "train()",
+      "file_type": "code",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L151",
+      "_origin": "ast",
+      "id": "training_train_custom_train",
+      "community": 3,
+      "norm_label": "train()"
+    },
+    {
+      "label": "Compute cross-entropy loss for language modeling.",
+      "file_type": "rationale",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "training_train_custom_rationale_49",
+      "community": 3,
+      "norm_label": "compute cross-entropy loss for language modeling."
+    },
+    {
+      "label": "Tokenize a dataset sample (which has 'messages' format).",
+      "file_type": "rationale",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "training_train_custom_rationale_65",
+      "community": 3,
+      "norm_label": "tokenize a dataset sample (which has 'messages' format)."
+    },
+    {
+      "label": "Evaluate on validation set.",
+      "file_type": "rationale",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "training_train_custom_rationale_79",
+      "community": 3,
+      "norm_label": "evaluate on validation set."
+    },
+    {
+      "label": "Minimal data loader that tokenizes on the fly.",
+      "file_type": "rationale",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "training_train_custom_rationale_102",
+      "community": 3,
+      "norm_label": "minimal data loader that tokenizes on the fly."
+    },
+    {
+      "label": "train_robust.py",
+      "file_type": "code",
+      "source_file": "Training/train_robust.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "training_train_robust",
+      "community": 13,
+      "norm_label": "train_robust.py"
+    },
+    {
+      "label": "clear_metal_cache()",
+      "file_type": "code",
+      "source_file": "Training/train_robust.py",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "training_train_robust_clear_metal_cache",
+      "community": 13,
+      "norm_label": "clear_metal_cache()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "Training/train_robust.py",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "training_train_robust_main",
+      "community": 13,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Aggressively clear Metal GPU cache to prevent OOM/watchdog.",
+      "file_type": "rationale",
+      "source_file": "Training/train_robust.py",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "training_train_robust_rationale_62",
+      "community": 13,
+      "norm_label": "aggressively clear metal gpu cache to prevent oom/watchdog."
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "engine/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_init",
+      "community": 25,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "chat.py",
+      "file_type": "code",
+      "source_file": "engine/chat.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_chat",
+      "community": 0,
+      "norm_label": "chat.py"
+    },
+    {
+      "label": "load_conversation_context()",
+      "file_type": "code",
+      "source_file": "engine/chat.py",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "engine_chat_load_conversation_context",
+      "community": 0,
+      "norm_label": "load_conversation_context()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "engine/chat.py",
+      "source_location": "L58",
+      "_origin": "ast",
+      "id": "engine_chat_main",
+      "community": 0,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Simple keyword-based retrieval from conversation index.",
+      "file_type": "rationale",
+      "source_file": "engine/chat.py",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "engine_chat_rationale_26",
+      "community": 0,
+      "norm_label": "simple keyword-based retrieval from conversation index."
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_main",
+      "community": 1,
+      "norm_label": "main.py"
+    },
+    {
+      "label": "cmd_test_news()",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "engine_main_cmd_test_news",
+      "community": 1,
+      "norm_label": "cmd_test_news()"
+    },
+    {
+      "label": "cmd_briefing()",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "engine_main_cmd_briefing",
+      "community": 1,
+      "norm_label": "cmd_briefing()"
+    },
+    {
+      "label": "cmd_add_event()",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "engine_main_cmd_add_event",
+      "community": 9,
+      "norm_label": "cmd_add_event()"
+    },
+    {
+      "label": "cmd_list_events()",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L48",
+      "_origin": "ast",
+      "id": "engine_main_cmd_list_events",
+      "community": 1,
+      "norm_label": "cmd_list_events()"
+    },
+    {
+      "label": "cmd_list_week()",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "engine_main_cmd_list_week",
+      "community": 1,
+      "norm_label": "cmd_list_week()"
+    },
+    {
+      "label": "cmd_remove_event()",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L72",
+      "_origin": "ast",
+      "id": "engine_main_cmd_remove_event",
+      "community": 1,
+      "norm_label": "cmd_remove_event()"
+    },
+    {
+      "label": "cmd_status()",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "engine_main_cmd_status",
+      "community": 1,
+      "norm_label": "cmd_status()"
+    },
+    {
+      "label": "cmd_daemon()",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L95",
+      "_origin": "ast",
+      "id": "engine_main_cmd_daemon",
+      "community": 1,
+      "norm_label": "cmd_daemon()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "engine/main.py",
+      "source_location": "L124",
+      "_origin": "ast",
+      "id": "engine_main_main",
+      "community": 1,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Fetch and summarize news now.",
+      "file_type": "rationale",
+      "source_file": "engine/main.py",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "engine_main_rationale_21",
+      "community": 1,
+      "norm_label": "fetch and summarize news now."
+    },
+    {
+      "label": "Generate a full morning briefing (news + schedule).",
+      "file_type": "rationale",
+      "source_file": "engine/main.py",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "engine_main_rationale_28",
+      "community": 1,
+      "norm_label": "generate a full morning briefing (news + schedule)."
+    },
+    {
+      "label": "Add a calendar event.",
+      "file_type": "rationale",
+      "source_file": "engine/main.py",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "engine_main_rationale_37",
+      "community": 9,
+      "norm_label": "add a calendar event."
+    },
+    {
+      "label": "List today's events or a specific date.",
+      "file_type": "rationale",
+      "source_file": "engine/main.py",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "engine_main_rationale_49",
+      "community": 1,
+      "norm_label": "list today's events or a specific date."
+    },
+    {
+      "label": "List events for the next 7 days.",
+      "file_type": "rationale",
+      "source_file": "engine/main.py",
+      "source_location": "L62",
+      "_origin": "ast",
+      "id": "engine_main_rationale_62",
+      "community": 1,
+      "norm_label": "list events for the next 7 days."
+    },
+    {
+      "label": "Remove an event by ID.",
+      "file_type": "rationale",
+      "source_file": "engine/main.py",
+      "source_location": "L73",
+      "_origin": "ast",
+      "id": "engine_main_rationale_73",
+      "community": 1,
+      "norm_label": "remove an event by id."
+    },
+    {
+      "label": "Check service status.",
+      "file_type": "rationale",
+      "source_file": "engine/main.py",
+      "source_location": "L79",
+      "_origin": "ast",
+      "id": "engine_main_rationale_79",
+      "community": 1,
+      "norm_label": "check service status."
+    },
+    {
+      "label": "Run the scheduler in daemon mode.",
+      "file_type": "rationale",
+      "source_file": "engine/main.py",
+      "source_location": "L96",
+      "_origin": "ast",
+      "id": "engine_main_rationale_96",
+      "community": 1,
+      "norm_label": "run the scheduler in daemon mode."
+    },
+    {
+      "label": "scheduler.py",
+      "file_type": "code",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_scheduler",
+      "community": 5,
+      "norm_label": "scheduler.py"
+    },
+    {
+      "label": "create_scheduler()",
+      "file_type": "code",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L9",
+      "_origin": "ast",
+      "id": "engine_scheduler_create_scheduler",
+      "community": 5,
+      "norm_label": "create_scheduler()"
+    },
+    {
+      "label": "APScheduler setup for recurring Jarvis tasks.",
+      "file_type": "rationale",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_scheduler_rationale_1",
+      "community": 5,
+      "norm_label": "apscheduler setup for recurring jarvis tasks."
+    },
+    {
+      "label": "Create and configure the background scheduler with default jobs.",
+      "file_type": "rationale",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "engine_scheduler_rationale_10",
+      "community": 5,
+      "norm_label": "create and configure the background scheduler with default jobs."
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "engine/tasks/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_tasks_init",
+      "community": 26,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "calendar.py",
+      "file_type": "code",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar",
+      "community": 6,
+      "norm_label": "calendar.py"
+    },
+    {
+      "label": "_load_events()",
+      "file_type": "code",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L13",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_load_events",
+      "community": 6,
+      "norm_label": "_load_events()"
+    },
+    {
+      "label": "_save_events()",
+      "file_type": "code",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L21",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_save_events",
+      "community": 9,
+      "norm_label": "_save_events()"
+    },
+    {
+      "label": "add_event()",
+      "file_type": "code",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L27",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_add_event",
+      "community": 9,
+      "norm_label": "add_event()"
+    },
+    {
+      "label": "list_events()",
+      "file_type": "code",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L44",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_list_events",
+      "community": 6,
+      "norm_label": "list_events()"
+    },
+    {
+      "label": "list_week()",
+      "file_type": "code",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L51",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_list_week",
+      "community": 6,
+      "norm_label": "list_week()"
+    },
+    {
+      "label": "remove_event()",
+      "file_type": "code",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_remove_event",
+      "community": 9,
+      "norm_label": "remove_event()"
+    },
+    {
+      "label": "generate_briefing()",
+      "file_type": "code",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L66",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_generate_briefing",
+      "community": 6,
+      "norm_label": "generate_briefing()"
+    },
+    {
+      "label": "Simple JSON-based calendar/schedule manager.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_rationale_1",
+      "community": 6,
+      "norm_label": "simple json-based calendar/schedule manager."
+    },
+    {
+      "label": "Load events from the JSON store.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_rationale_14",
+      "community": 6,
+      "norm_label": "load events from the json store."
+    },
+    {
+      "label": "Save events to the JSON store.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_rationale_22",
+      "community": 9,
+      "norm_label": "save events to the json store."
+    },
+    {
+      "label": "Add an event. date_str: YYYY-MM-DD, time_str: HH:MM.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_rationale_28",
+      "community": 9,
+      "norm_label": "add an event. date_str: yyyy-mm-dd, time_str: hh:mm."
+    },
+    {
+      "label": "List events for a given date (default: today).",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_rationale_45",
+      "community": 6,
+      "norm_label": "list events for a given date (default: today)."
+    },
+    {
+      "label": "List events for the next 7 days.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_rationale_52",
+      "community": 6,
+      "norm_label": "list events for the next 7 days."
+    },
+    {
+      "label": "Remove an event by ID.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_rationale_60",
+      "community": 9,
+      "norm_label": "remove an event by id."
+    },
+    {
+      "label": "Generate a morning briefing of today's schedule via LLM.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "engine_tasks_calendar_rationale_67",
+      "community": 6,
+      "norm_label": "generate a morning briefing of today's schedule via llm."
+    },
+    {
+      "label": "news.py",
+      "file_type": "code",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_tasks_news",
+      "community": 5,
+      "norm_label": "news.py"
+    },
+    {
+      "label": "fetch_headlines()",
+      "file_type": "code",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "engine_tasks_news_fetch_headlines",
+      "community": 5,
+      "norm_label": "fetch_headlines()"
+    },
+    {
+      "label": "summarize_news()",
+      "file_type": "code",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "engine_tasks_news_summarize_news",
+      "community": 5,
+      "norm_label": "summarize_news()"
+    },
+    {
+      "label": "get_latest_briefing()",
+      "file_type": "code",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "engine_tasks_news_get_latest_briefing",
+      "community": 1,
+      "norm_label": "get_latest_briefing()"
+    },
+    {
+      "label": "Fetch and summarize news from RSS feeds.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_tasks_news_rationale_1",
+      "community": 5,
+      "norm_label": "fetch and summarize news from rss feeds."
+    },
+    {
+      "label": "Fetch headlines from RSS feeds. Returns list of (source, title, link).",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "engine_tasks_news_rationale_23",
+      "community": 5,
+      "norm_label": "fetch headlines from rss feeds. returns list of (source, title, link)."
+    },
+    {
+      "label": "Fetch headlines and summarize them via the LLM.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "engine_tasks_news_rationale_47",
+      "community": 5,
+      "norm_label": "fetch headlines and summarize them via the llm."
+    },
+    {
+      "label": "Return the most recent saved news briefing.",
+      "file_type": "rationale",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L85",
+      "_origin": "ast",
+      "id": "engine_tasks_news_rationale_85",
+      "community": 1,
+      "norm_label": "return the most recent saved news briefing."
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "engine/tools/__init__.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_tools_init",
+      "community": 27,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "llm.py",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_tools_llm",
+      "community": 0,
+      "norm_label": "llm.py"
+    },
+    {
+      "label": "_load_env()",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L24",
+      "_origin": "ast",
+      "id": "engine_tools_llm_load_env",
+      "community": 0,
+      "norm_label": "_load_env()"
+    },
+    {
+      "label": "_load_model_config()",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "engine_tools_llm_load_model_config",
+      "community": 0,
+      "norm_label": "_load_model_config()"
+    },
+    {
+      "label": "_load_system_prompt()",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L46",
+      "_origin": "ast",
+      "id": "engine_tools_llm_load_system_prompt",
+      "community": 0,
+      "norm_label": "_load_system_prompt()"
+    },
+    {
+      "label": "LLMClient",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L59",
+      "_origin": "ast",
+      "id": "engine_tools_llm_llmclient",
+      "community": 0,
+      "norm_label": "llmclient"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "engine_tools_llm_llmclient_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".chat()",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L104",
+      "_origin": "ast",
+      "id": "engine_tools_llm_llmclient_chat",
+      "community": 0,
+      "norm_label": ".chat()"
+    },
+    {
+      "label": "._chat_anthropic()",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "engine_tools_llm_llmclient_chat_anthropic",
+      "community": 0,
+      "norm_label": "._chat_anthropic()"
+    },
+    {
+      "label": ".summarize()",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L173",
+      "_origin": "ast",
+      "id": "engine_tools_llm_llmclient_summarize",
+      "community": 0,
+      "norm_label": ".summarize()"
+    },
+    {
+      "label": ".is_healthy()",
+      "file_type": "code",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L180",
+      "_origin": "ast",
+      "id": "engine_tools_llm_llmclient_is_healthy",
+      "community": 0,
+      "norm_label": ".is_healthy()"
+    },
+    {
+      "label": "Wrapper around llama-server, OpenAI, and Anthropic APIs.  Supports three backend",
+      "file_type": "rationale",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "engine_tools_llm_rationale_1",
+      "community": 0,
+      "norm_label": "wrapper around llama-server, openai, and anthropic apis.  supports three backend"
+    },
+    {
+      "label": "Load .env file from project root if it exists.",
+      "file_type": "rationale",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "engine_tools_llm_rationale_25",
+      "community": 0,
+      "norm_label": "load .env file from project root if it exists."
+    },
+    {
+      "label": "Load the active model config from models.json.",
+      "file_type": "rationale",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "engine_tools_llm_rationale_37",
+      "community": 0,
+      "norm_label": "load the active model config from models.json."
+    },
+    {
+      "label": "Load the personalized system prompt if available.",
+      "file_type": "rationale",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "engine_tools_llm_rationale_47",
+      "community": 0,
+      "norm_label": "load the personalized system prompt if available."
+    },
+    {
+      "label": "Initialize LLM client.          Args:             base_url: Override the API bas",
+      "file_type": "rationale",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L61",
+      "_origin": "ast",
+      "id": "engine_tools_llm_rationale_61",
+      "community": 0,
+      "norm_label": "initialize llm client.          args:             base_url: override the api bas"
+    },
+    {
+      "label": "Send a chat completion request and return the assistant's reply text.",
+      "file_type": "rationale",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L105",
+      "_origin": "ast",
+      "id": "engine_tools_llm_rationale_105",
+      "community": 0,
+      "norm_label": "send a chat completion request and return the assistant's reply text."
+    },
+    {
+      "label": "Send a chat request via the Anthropic Messages API.",
+      "file_type": "rationale",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L136",
+      "_origin": "ast",
+      "id": "engine_tools_llm_rationale_136",
+      "community": 0,
+      "norm_label": "send a chat request via the anthropic messages api."
+    },
+    {
+      "label": "Ask the LLM to summarize the given text.",
+      "file_type": "rationale",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L174",
+      "_origin": "ast",
+      "id": "engine_tools_llm_rationale_174",
+      "community": 0,
+      "norm_label": "ask the llm to summarize the given text."
+    },
+    {
+      "label": "Check if the LLM backend is responding.",
+      "file_type": "rationale",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L181",
+      "_origin": "ast",
+      "id": "engine_tools_llm_rationale_181",
+      "community": 0,
+      "norm_label": "check if the llm backend is responding."
+    },
+    {
+      "label": "entrypoint.sh",
+      "file_type": "code",
+      "source_file": "runpod/entrypoint.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "runpod_entrypoint",
+      "community": 15,
+      "norm_label": "entrypoint.sh"
+    },
+    {
+      "label": "entrypoint.sh script",
+      "file_type": "code",
+      "source_file": "runpod/entrypoint.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "runpod_entrypoint_sh__entry",
+      "community": 15,
+      "norm_label": "entrypoint.sh script"
+    },
+    {
+      "label": "build-push-runpod.sh",
+      "file_type": "code",
+      "source_file": "scripts/build-push-runpod.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_build_push_runpod",
+      "community": 16,
+      "norm_label": "build-push-runpod.sh"
+    },
+    {
+      "label": "build-push-runpod.sh script",
+      "file_type": "code",
+      "source_file": "scripts/build-push-runpod.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_build_push_runpod_sh__entry",
+      "community": 16,
+      "norm_label": "build-push-runpod.sh script"
+    },
+    {
+      "label": "deploy-runpod.py",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod",
+      "community": 2,
+      "norm_label": "deploy-runpod.py"
+    },
+    {
+      "label": "_graphql()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_graphql",
+      "community": 2,
+      "norm_label": "_graphql()"
+    },
+    {
+      "label": "load_config()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_load_config",
+      "community": 2,
+      "norm_label": "load_config()"
+    },
+    {
+      "label": "save_state()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_save_state",
+      "community": 2,
+      "norm_label": "save_state()"
+    },
+    {
+      "label": "load_state()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L75",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_load_state",
+      "community": 2,
+      "norm_label": "load_state()"
+    },
+    {
+      "label": "check_health()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L82",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_check_health",
+      "community": 2,
+      "norm_label": "check_health()"
+    },
+    {
+      "label": "deploy()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L93",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_deploy",
+      "community": 2,
+      "norm_label": "deploy()"
+    },
+    {
+      "label": "status()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L243",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_status",
+      "community": 2,
+      "norm_label": "status()"
+    },
+    {
+      "label": "stop()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L279",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_stop",
+      "community": 2,
+      "norm_label": "stop()"
+    },
+    {
+      "label": "resume()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L294",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_resume",
+      "community": 2,
+      "norm_label": "resume()"
+    },
+    {
+      "label": "terminate()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L309",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_terminate",
+      "community": 2,
+      "norm_label": "terminate()"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L324",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_main",
+      "community": 2,
+      "norm_label": "main()"
+    },
+    {
+      "label": "Call RunPod GraphQL API directly.",
+      "file_type": "rationale",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L29",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_rationale_29",
+      "community": 2,
+      "norm_label": "call runpod graphql api directly."
+    },
+    {
+      "label": "Check if the llama-server health endpoint responds OK.",
+      "file_type": "rationale",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "scripts_deploy_runpod_rationale_83",
+      "community": 2,
+      "norm_label": "check if the llama-server health endpoint responds ok."
+    },
+    {
+      "label": "download-models.sh",
+      "file_type": "code",
+      "source_file": "scripts/download-models.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_download_models",
+      "community": 11,
+      "norm_label": "download-models.sh"
+    },
+    {
+      "label": "download-models.sh script",
+      "file_type": "code",
+      "source_file": "scripts/download-models.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_download_models_sh__entry",
+      "community": 11,
+      "norm_label": "download-models.sh script"
+    },
+    {
+      "label": "download_e2b()",
+      "file_type": "code",
+      "source_file": "scripts/download-models.sh",
+      "source_location": "L25",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_download_models_download_e2b",
+      "community": 11,
+      "norm_label": "download_e2b()"
+    },
+    {
+      "label": "download_e4b()",
+      "file_type": "code",
+      "source_file": "scripts/download-models.sh",
+      "source_location": "L47",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_download_models_download_e4b",
+      "community": 11,
+      "norm_label": "download_e4b()"
+    },
+    {
+      "label": "fuse-adapters.sh",
+      "file_type": "code",
+      "source_file": "scripts/fuse-adapters.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_fuse_adapters",
+      "community": 17,
+      "norm_label": "fuse-adapters.sh"
+    },
+    {
+      "label": "fuse-adapters.sh script",
+      "file_type": "code",
+      "source_file": "scripts/fuse-adapters.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_fuse_adapters_sh__entry",
+      "community": 17,
+      "norm_label": "fuse-adapters.sh script"
+    },
+    {
+      "label": "install-services.sh",
+      "file_type": "code",
+      "source_file": "scripts/install-services.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_install_services",
+      "community": 18,
+      "norm_label": "install-services.sh"
+    },
+    {
+      "label": "install-services.sh script",
+      "file_type": "code",
+      "source_file": "scripts/install-services.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_install_services_sh__entry",
+      "community": 18,
+      "norm_label": "install-services.sh script"
+    },
+    {
+      "label": "runpod-boot.sh",
+      "file_type": "code",
+      "source_file": "scripts/runpod-boot.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_runpod_boot",
+      "community": 14,
+      "norm_label": "runpod-boot.sh"
+    },
+    {
+      "label": "runpod-boot.sh script",
+      "file_type": "code",
+      "source_file": "scripts/runpod-boot.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_runpod_boot_sh__entry",
+      "community": 14,
+      "norm_label": "runpod-boot.sh script"
+    },
+    {
+      "label": "LD_LIBRARY_PATH",
+      "file_type": "code",
+      "source_file": "scripts/runpod-boot.sh",
+      "source_location": "L44",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "_origin": "ast",
+      "id": "scripts_runpod_boot_ld_library_path",
+      "community": 14,
+      "norm_label": "ld_library_path"
+    },
+    {
+      "label": "start.sh",
+      "file_type": "code",
+      "source_file": "scripts/start.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_start",
+      "community": 10,
+      "norm_label": "start.sh"
+    },
+    {
+      "label": "start.sh script",
+      "file_type": "code",
+      "source_file": "scripts/start.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_start_sh__entry",
+      "community": 10,
+      "norm_label": "start.sh script"
+    },
+    {
+      "label": "start_webui()",
+      "file_type": "code",
+      "source_file": "scripts/start.sh",
+      "source_location": "L37",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_start_start_webui",
+      "community": 10,
+      "norm_label": "start_webui()"
+    },
+    {
+      "label": "start_engine()",
+      "file_type": "code",
+      "source_file": "scripts/start.sh",
+      "source_location": "L61",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_start_start_engine",
+      "community": 10,
+      "norm_label": "start_engine()"
+    },
+    {
+      "label": "set_default()",
+      "file_type": "code",
+      "source_file": "scripts/start.sh",
+      "source_location": "L70",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_start_set_default",
+      "community": 10,
+      "norm_label": "set_default()"
+    },
+    {
+      "label": "stop.sh",
+      "file_type": "code",
+      "source_file": "scripts/stop.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_stop",
+      "community": 12,
+      "norm_label": "stop.sh"
+    },
+    {
+      "label": "stop.sh script",
+      "file_type": "code",
+      "source_file": "scripts/stop.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_stop_sh__entry",
+      "community": 12,
+      "norm_label": "stop.sh script"
+    },
+    {
+      "label": "kill_pid()",
+      "file_type": "code",
+      "source_file": "scripts/stop.sh",
+      "source_location": "L7",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_stop_kill_pid",
+      "community": 12,
+      "norm_label": "kill_pid()"
+    },
+    {
+      "label": "wait_pid()",
+      "file_type": "code",
+      "source_file": "scripts/stop.sh",
+      "source_location": "L25",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "_origin": "ast",
+      "id": "scripts_stop_wait_pid",
+      "community": 12,
+      "norm_label": "wait_pid()"
+    },
+    {
+      "label": "switch-model.sh",
+      "file_type": "code",
+      "source_file": "scripts/switch-model.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_switch_model",
+      "community": 19,
+      "norm_label": "switch-model.sh"
+    },
+    {
+      "label": "switch-model.sh script",
+      "file_type": "code",
+      "source_file": "scripts/switch-model.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_switch_model_sh__entry",
+      "community": 19,
+      "norm_label": "switch-model.sh script"
+    },
+    {
+      "label": "switch-openclaw-model.sh",
+      "file_type": "code",
+      "source_file": "scripts/switch-openclaw-model.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_switch_openclaw_model",
+      "community": 20,
+      "norm_label": "switch-openclaw-model.sh"
+    },
+    {
+      "label": "switch-openclaw-model.sh script",
+      "file_type": "code",
+      "source_file": "scripts/switch-openclaw-model.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_switch_openclaw_model_sh__entry",
+      "community": 20,
+      "norm_label": "switch-openclaw-model.sh script"
+    },
+    {
+      "label": "train-lora-chunked.sh",
+      "file_type": "code",
+      "source_file": "scripts/train-lora-chunked.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_train_lora_chunked",
+      "community": 22,
+      "norm_label": "train-lora-chunked.sh"
+    },
+    {
+      "label": "train-lora-chunked.sh script",
+      "file_type": "code",
+      "source_file": "scripts/train-lora-chunked.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_train_lora_chunked_sh__entry",
+      "community": 22,
+      "norm_label": "train-lora-chunked.sh script"
+    },
+    {
+      "label": "train-lora.sh",
+      "file_type": "code",
+      "source_file": "scripts/train-lora.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_train_lora",
+      "community": 21,
+      "norm_label": "train-lora.sh"
+    },
+    {
+      "label": "train-lora.sh script",
+      "file_type": "code",
+      "source_file": "scripts/train-lora.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_train_lora_sh__entry",
+      "community": 21,
+      "norm_label": "train-lora.sh script"
+    },
+    {
+      "label": "uninstall-services.sh",
+      "file_type": "code",
+      "source_file": "scripts/uninstall-services.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_uninstall_services",
+      "community": 23,
+      "norm_label": "uninstall-services.sh"
+    },
+    {
+      "label": "uninstall-services.sh script",
+      "file_type": "code",
+      "source_file": "scripts/uninstall-services.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_uninstall_services_sh__entry",
+      "community": 23,
+      "norm_label": "uninstall-services.sh script"
+    },
+    {
+      "label": "watch-training.sh",
+      "file_type": "code",
+      "source_file": "scripts/watch-training.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "_origin": "ast",
+      "id": "scripts_watch_training",
+      "community": 24,
+      "norm_label": "watch-training.sh"
+    },
+    {
+      "label": "watch-training.sh script",
+      "file_type": "code",
+      "source_file": "scripts/watch-training.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "_origin": "ast",
+      "id": "scripts_watch_training_sh__entry",
+      "community": 24,
+      "norm_label": "watch-training.sh script"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "training_build_dataset",
+      "target": "training_build_dataset_build_instruction_pairs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "training_build_dataset",
+      "target": "training_build_dataset_extract_personal_knowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "training_build_dataset",
+      "target": "training_build_dataset_extract_turns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "training_build_dataset",
+      "target": "training_build_dataset_load_conversations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "training_build_dataset",
+      "target": "training_build_dataset_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L183",
+      "weight": 1.0,
+      "source": "training_build_dataset_main",
+      "target": "training_build_dataset_load_conversations",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "training_build_dataset_build_instruction_pairs",
+      "target": "training_build_dataset_extract_turns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "training_build_dataset_extract_personal_knowledge",
+      "target": "training_build_dataset_extract_turns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "training_build_dataset_rationale_27",
+      "target": "training_build_dataset_extract_turns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "training_build_dataset_main",
+      "target": "training_build_dataset_build_instruction_pairs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "training_build_dataset_rationale_70",
+      "target": "training_build_dataset_build_instruction_pairs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "training_build_dataset_main",
+      "target": "training_build_dataset_extract_personal_knowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_dataset.py",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "training_build_dataset_rationale_128",
+      "target": "training_build_dataset_extract_personal_knowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base",
+      "target": "training_build_knowledge_base_build_system_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base",
+      "target": "training_build_knowledge_base_extract_key_facts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base",
+      "target": "training_build_knowledge_base_extract_user_messages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base",
+      "target": "training_build_knowledge_base_load_knowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L160",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base",
+      "target": "training_build_knowledge_base_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base_main",
+      "target": "training_build_knowledge_base_load_knowledge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base_rationale_28",
+      "target": "training_build_knowledge_base_extract_user_messages",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base_main",
+      "target": "training_build_knowledge_base_extract_key_facts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base_rationale_38",
+      "target": "training_build_knowledge_base_extract_key_facts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base_main",
+      "target": "training_build_knowledge_base_build_system_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/build_knowledge_base.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "training_build_knowledge_base_rationale_100",
+      "target": "training_build_knowledge_base_build_system_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "training_package",
+      "target": "training_package_author",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "training_package",
+      "target": "training_package_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "training_package",
+      "target": "training_package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "training_package",
+      "target": "training_package_keywords",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "training_package",
+      "target": "training_package_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "training_package",
+      "target": "training_package_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "training_package",
+      "target": "training_package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "training_package",
+      "target": "training_package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "training_package",
+      "target": "training_package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "training_package_devdependencies",
+      "target": "training_package_devdependencies_playwright_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "training_package_devdependencies",
+      "target": "training_package_devdependencies_types_node",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "training_train_custom",
+      "target": "training_train_custom_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "training_train_custom",
+      "target": "training_train_custom_loss_fn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "training_train_custom",
+      "target": "training_train_custom_simpledataloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "training_train_custom",
+      "target": "training_train_custom_tokenize_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "training_train_custom",
+      "target": "training_train_custom_train",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L92",
+      "weight": 1.0,
+      "source": "training_train_custom_evaluate",
+      "target": "training_train_custom_loss_fn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "training_train_custom_rationale_49",
+      "target": "training_train_custom_loss_fn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L220",
+      "weight": 1.0,
+      "source": "training_train_custom_train",
+      "target": "training_train_custom_loss_fn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "training_train_custom_evaluate",
+      "target": "training_train_custom_tokenize_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "training_train_custom_rationale_65",
+      "target": "training_train_custom_tokenize_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L251",
+      "weight": 1.0,
+      "source": "training_train_custom_train",
+      "target": "training_train_custom_tokenize_sample",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "training_train_custom_evaluate",
+      "target": "training_train_custom_train",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "training_train_custom_rationale_79",
+      "target": "training_train_custom_evaluate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "training_train_custom_rationale_102",
+      "target": "training_train_custom_simpledataloader",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "training_train_custom_simpledataloader",
+      "target": "training_train_custom_simpledataloader_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "training_train_custom_simpledataloader",
+      "target": "training_train_custom_simpledataloader_iter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "training_train_custom_simpledataloader",
+      "target": "training_train_custom_simpledataloader_next",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "training_train_custom_simpledataloader",
+      "target": "training_train_custom_simpledataloader_reset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_custom.py",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "training_train_custom_simpledataloader_next",
+      "target": "training_train_custom_simpledataloader_reset",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_robust.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "training_train_robust",
+      "target": "training_train_robust_clear_metal_cache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_robust.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "training_train_robust",
+      "target": "training_train_robust_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_robust.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "training_train_robust_main",
+      "target": "training_train_robust_clear_metal_cache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "Training/train_robust.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "training_train_robust_rationale_62",
+      "target": "training_train_robust_clear_metal_cache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/chat.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "engine_chat",
+      "target": "engine_chat_load_conversation_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/chat.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "engine_chat",
+      "target": "engine_chat_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/chat.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "engine_chat",
+      "target": "engine_tools_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/chat.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "engine_chat",
+      "target": "engine_tools_llm_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/chat.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "engine_chat_main",
+      "target": "engine_chat_load_conversation_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/chat.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "engine_chat_rationale_26",
+      "target": "engine_chat_load_conversation_context",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/chat.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "engine_chat_main",
+      "target": "engine_tools_llm_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_main_cmd_add_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_main_cmd_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_main_cmd_daemon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_main_cmd_list_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_main_cmd_list_week",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_main_cmd_remove_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_main_cmd_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_main_cmd_test_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_main_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_scheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_scheduler_create_scheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tasks_calendar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tasks_calendar_add_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tasks_calendar_generate_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tasks_calendar_list_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tasks_calendar_list_week",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tasks_calendar_remove_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tasks_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tasks_news_get_latest_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tasks_news_summarize_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tools_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "engine_main",
+      "target": "engine_tools_llm_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "engine_main_cmd_test_news",
+      "target": "engine_tasks_news_summarize_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "engine/main.py",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "engine_main_main",
+      "target": "engine_main_cmd_test_news",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "engine_main_rationale_21",
+      "target": "engine_main_cmd_test_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "engine_main_cmd_briefing",
+      "target": "engine_tasks_calendar_generate_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "engine_main_cmd_briefing",
+      "target": "engine_tasks_news_get_latest_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "engine/main.py",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "engine_main_main",
+      "target": "engine_main_cmd_briefing",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "engine_main_rationale_28",
+      "target": "engine_main_cmd_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "engine_main_cmd_add_event",
+      "target": "engine_tasks_calendar_add_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "engine/main.py",
+      "source_location": "L171",
+      "weight": 1.0,
+      "source": "engine_main_main",
+      "target": "engine_main_cmd_add_event",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "engine_main_rationale_37",
+      "target": "engine_main_cmd_add_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "engine_main_cmd_list_events",
+      "target": "engine_tasks_calendar_list_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "engine/main.py",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "engine_main_main",
+      "target": "engine_main_cmd_list_events",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "engine_main_rationale_49",
+      "target": "engine_main_cmd_list_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "engine_main_cmd_list_week",
+      "target": "engine_tasks_calendar_list_week",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "engine/main.py",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "engine_main_main",
+      "target": "engine_main_cmd_list_week",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "engine_main_rationale_62",
+      "target": "engine_main_cmd_list_week",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "engine_main_cmd_remove_event",
+      "target": "engine_tasks_calendar_remove_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "engine/main.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "engine_main_main",
+      "target": "engine_main_cmd_remove_event",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "engine_main_rationale_73",
+      "target": "engine_main_cmd_remove_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "source": "engine_main_cmd_status",
+      "target": "engine_tools_llm_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "collection",
+      "confidence": "INFERRED",
+      "source_file": "engine/main.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "engine_main_main",
+      "target": "engine_main_cmd_status",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "engine_main_rationale_79",
+      "target": "engine_main_cmd_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "engine_main_cmd_daemon",
+      "target": "engine_scheduler_create_scheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "engine_main_main",
+      "target": "engine_main_cmd_daemon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/main.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "engine_main_rationale_96",
+      "target": "engine_main_cmd_daemon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "engine_scheduler",
+      "target": "engine_scheduler_create_scheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "engine_scheduler",
+      "target": "engine_tasks_calendar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "engine_scheduler",
+      "target": "engine_tasks_calendar_generate_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "engine_scheduler",
+      "target": "engine_tasks_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "engine_scheduler",
+      "target": "engine_tasks_news_summarize_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "engine_scheduler_rationale_1",
+      "target": "engine_scheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "engine/scheduler.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "engine_scheduler_create_scheduler",
+      "target": "engine_tasks_calendar_generate_briefing"
+    },
+    {
+      "relation": "indirect_call",
+      "context": "argument",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "engine/scheduler.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "engine_scheduler_create_scheduler",
+      "target": "engine_tasks_news_summarize_news"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/scheduler.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "engine_scheduler_rationale_10",
+      "target": "engine_scheduler_create_scheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar",
+      "target": "engine_tasks_calendar_add_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar",
+      "target": "engine_tasks_calendar_generate_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar",
+      "target": "engine_tasks_calendar_list_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar",
+      "target": "engine_tasks_calendar_list_week",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar",
+      "target": "engine_tasks_calendar_load_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar",
+      "target": "engine_tasks_calendar_remove_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar",
+      "target": "engine_tasks_calendar_save_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar",
+      "target": "engine_tools_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar",
+      "target": "engine_tools_llm_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_rationale_1",
+      "target": "engine_tasks_calendar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_add_event",
+      "target": "engine_tasks_calendar_load_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_list_events",
+      "target": "engine_tasks_calendar_load_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_list_week",
+      "target": "engine_tasks_calendar_load_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_rationale_14",
+      "target": "engine_tasks_calendar_load_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_remove_event",
+      "target": "engine_tasks_calendar_load_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_add_event",
+      "target": "engine_tasks_calendar_save_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_rationale_22",
+      "target": "engine_tasks_calendar_save_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_remove_event",
+      "target": "engine_tasks_calendar_save_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_rationale_28",
+      "target": "engine_tasks_calendar_add_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_generate_briefing",
+      "target": "engine_tasks_calendar_list_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_rationale_45",
+      "target": "engine_tasks_calendar_list_events",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_generate_briefing",
+      "target": "engine_tasks_calendar_list_week",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_rationale_52",
+      "target": "engine_tasks_calendar_list_week",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_rationale_60",
+      "target": "engine_tasks_calendar_remove_event",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_generate_briefing",
+      "target": "engine_tools_llm_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/calendar.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "engine_tasks_calendar_rationale_67",
+      "target": "engine_tasks_calendar_generate_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "engine_tasks_news",
+      "target": "engine_tasks_news_fetch_headlines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "engine_tasks_news",
+      "target": "engine_tasks_news_get_latest_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "engine_tasks_news",
+      "target": "engine_tasks_news_summarize_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "engine_tasks_news",
+      "target": "engine_tools_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "engine_tasks_news",
+      "target": "engine_tools_llm_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "engine_tasks_news_rationale_1",
+      "target": "engine_tasks_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "engine_tasks_news_rationale_23",
+      "target": "engine_tasks_news_fetch_headlines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "engine_tasks_news_summarize_news",
+      "target": "engine_tasks_news_fetch_headlines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "engine_tasks_news_rationale_47",
+      "target": "engine_tasks_news_summarize_news",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "engine_tasks_news_summarize_news",
+      "target": "engine_tools_llm_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tasks/news.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "engine_tasks_news_rationale_85",
+      "target": "engine_tasks_news_get_latest_briefing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "engine_tools_llm",
+      "target": "engine_tools_llm_llmclient",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "engine_tools_llm",
+      "target": "engine_tools_llm_load_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "engine_tools_llm",
+      "target": "engine_tools_llm_load_model_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "engine_tools_llm",
+      "target": "engine_tools_llm_load_system_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "engine_tools_llm_rationale_1",
+      "target": "engine_tools_llm",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "engine_tools_llm_rationale_25",
+      "target": "engine_tools_llm_load_env",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "engine_tools_llm_llmclient_init",
+      "target": "engine_tools_llm_load_model_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "engine_tools_llm_rationale_37",
+      "target": "engine_tools_llm_load_model_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "engine_tools_llm_llmclient_init",
+      "target": "engine_tools_llm_load_system_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "engine_tools_llm_rationale_47",
+      "target": "engine_tools_llm_load_system_prompt",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "engine_tools_llm_llmclient",
+      "target": "engine_tools_llm_llmclient_chat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "engine_tools_llm_llmclient",
+      "target": "engine_tools_llm_llmclient_chat_anthropic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "engine_tools_llm_llmclient",
+      "target": "engine_tools_llm_llmclient_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "engine_tools_llm_llmclient",
+      "target": "engine_tools_llm_llmclient_is_healthy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L173",
+      "weight": 1.0,
+      "source": "engine_tools_llm_llmclient",
+      "target": "engine_tools_llm_llmclient_summarize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "engine_tools_llm_rationale_61",
+      "target": "engine_tools_llm_llmclient_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "engine_tools_llm_llmclient_chat",
+      "target": "engine_tools_llm_llmclient_chat_anthropic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "engine_tools_llm_llmclient_summarize",
+      "target": "engine_tools_llm_llmclient_chat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "source": "engine_tools_llm_rationale_105",
+      "target": "engine_tools_llm_llmclient_chat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "engine_tools_llm_rationale_136",
+      "target": "engine_tools_llm_llmclient_chat_anthropic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "engine_tools_llm_rationale_174",
+      "target": "engine_tools_llm_llmclient_summarize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "engine/tools/llm.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "engine_tools_llm_rationale_181",
+      "target": "engine_tools_llm_llmclient_is_healthy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "runpod/entrypoint.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "runpod_entrypoint",
+      "target": "runpod_entrypoint_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/build-push-runpod.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_build_push_runpod",
+      "target": "scripts_build_push_runpod_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_check_health",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_graphql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_load_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L324",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L294",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_resume",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_save_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L243",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L279",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_stop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L309",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod",
+      "target": "scripts_deploy_runpod_terminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_deploy",
+      "target": "scripts_deploy_runpod_graphql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_rationale_29",
+      "target": "scripts_deploy_runpod_graphql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L302",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_resume",
+      "target": "scripts_deploy_runpod_graphql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L252",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_status",
+      "target": "scripts_deploy_runpod_graphql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L287",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_stop",
+      "target": "scripts_deploy_runpod_graphql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L317",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_terminate",
+      "target": "scripts_deploy_runpod_graphql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_deploy",
+      "target": "scripts_deploy_runpod_load_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_deploy",
+      "target": "scripts_deploy_runpod_save_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L295",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_resume",
+      "target": "scripts_deploy_runpod_load_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L244",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_status",
+      "target": "scripts_deploy_runpod_load_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L280",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_stop",
+      "target": "scripts_deploy_runpod_load_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L310",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_terminate",
+      "target": "scripts_deploy_runpod_load_state",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_deploy",
+      "target": "scripts_deploy_runpod_check_health",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_rationale_83",
+      "target": "scripts_deploy_runpod_check_health",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L273",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_status",
+      "target": "scripts_deploy_runpod_check_health",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L368",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_main",
+      "target": "scripts_deploy_runpod_deploy",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L360",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_main",
+      "target": "scripts_deploy_runpod_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L362",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_main",
+      "target": "scripts_deploy_runpod_stop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L364",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_main",
+      "target": "scripts_deploy_runpod_resume",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/deploy-runpod.py",
+      "source_location": "L366",
+      "weight": 1.0,
+      "source": "scripts_deploy_runpod_main",
+      "target": "scripts_deploy_runpod_terminate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/download-models.sh",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "scripts_download_models",
+      "target": "scripts_download_models_download_e2b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/download-models.sh",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "scripts_download_models",
+      "target": "scripts_download_models_download_e4b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/download-models.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_download_models",
+      "target": "scripts_download_models_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/download-models.sh",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "call",
+      "source": "scripts_download_models_sh__entry",
+      "target": "scripts_download_models_download_e2b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/download-models.sh",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "call",
+      "source": "scripts_download_models_sh__entry",
+      "target": "scripts_download_models_download_e4b",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/fuse-adapters.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_fuse_adapters",
+      "target": "scripts_fuse_adapters_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/install-services.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_install_services",
+      "target": "scripts_install_services_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/runpod-boot.sh",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "scripts_runpod_boot",
+      "target": "scripts_runpod_boot_ld_library_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/runpod-boot.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_runpod_boot",
+      "target": "scripts_runpod_boot_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/start.sh",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "scripts_start",
+      "target": "scripts_start_set_default",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/start.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_start",
+      "target": "scripts_start_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/start.sh",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "scripts_start",
+      "target": "scripts_start_start_engine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/start.sh",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "scripts_start",
+      "target": "scripts_start_start_webui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/start.sh",
+      "source_location": "L112",
+      "weight": 1.0,
+      "context": "call",
+      "source": "scripts_start_sh__entry",
+      "target": "scripts_start_set_default",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/start.sh",
+      "source_location": "L114",
+      "weight": 1.0,
+      "context": "call",
+      "source": "scripts_start_sh__entry",
+      "target": "scripts_start_start_engine",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/start.sh",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "call",
+      "source": "scripts_start_sh__entry",
+      "target": "scripts_start_start_webui",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/stop.sh",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "scripts_stop",
+      "target": "scripts_stop_kill_pid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/stop.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_stop",
+      "target": "scripts_stop_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/stop.sh",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "scripts_stop",
+      "target": "scripts_stop_wait_pid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/stop.sh",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "call",
+      "source": "scripts_stop_sh__entry",
+      "target": "scripts_stop_kill_pid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/stop.sh",
+      "source_location": "L53",
+      "weight": 1.0,
+      "context": "call",
+      "source": "scripts_stop_sh__entry",
+      "target": "scripts_stop_wait_pid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/switch-model.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_switch_model",
+      "target": "scripts_switch_model_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/switch-openclaw-model.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_switch_openclaw_model",
+      "target": "scripts_switch_openclaw_model_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/train-lora-chunked.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_train_lora_chunked",
+      "target": "scripts_train_lora_chunked_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/train-lora.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_train_lora",
+      "target": "scripts_train_lora_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/uninstall-services.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_uninstall_services",
+      "target": "scripts_uninstall_services_sh__entry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/watch-training.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "scripts_watch_training",
+      "target": "scripts_watch_training_sh__entry",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "befda021e7dae21d24477eee594124809f804ed8"
+}

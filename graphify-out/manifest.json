@@ -1,0 +1,982 @@
+{
+  "Training/adapters/adapter_config.json": {
+    "mtime": 1776164463.0,
+    "ast_hash": "51072b74b1fa79a17d1d7062e4aa705c",
+    "semantic_hash": "51072b74b1fa79a17d1d7062e4aa705c"
+  },
+  "Training/bootstrap-treeview.min 2.js": {
+    "mtime": 1770569739.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/bootstrap-treeview.min.js": {
+    "mtime": 1770569739.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/build.gradle": {
+    "mtime": 1626415845.0,
+    "ast_hash": "d07300d1068852a7d3b33ce2d4e52f41",
+    "semantic_hash": "d07300d1068852a7d3b33ce2d4e52f41"
+  },
+  "Training/build_dataset.py": {
+    "mtime": 1776156963.0,
+    "ast_hash": "30ae9848d0ba40f76ac9fa45afc89a38",
+    "semantic_hash": "30ae9848d0ba40f76ac9fa45afc89a38"
+  },
+  "Training/build_knowledge_base.py": {
+    "mtime": 1776157981.0,
+    "ast_hash": "6ec3b4213f7c4b320de631e40e5285cd",
+    "semantic_hash": "6ec3b4213f7c4b320de631e40e5285cd"
+  },
+  "Training/chartist-plugin-tooltip.min 2.js": {
+    "mtime": 1770569739.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/chartist-plugin-tooltip.min.js": {
+    "mtime": 1770569739.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/chartist.min 2.js": {
+    "mtime": 1770569739.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/chartist.min.js": {
+    "mtime": 1770569739.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/chatgpt_export/conversations.json": {
+    "mtime": 1776156798.0,
+    "ast_hash": "ad77bae3ab2f1d091c903ad58add50fd",
+    "semantic_hash": "ad77bae3ab2f1d091c903ad58add50fd"
+  },
+  "Training/chatgpt_export/group_chats.json": {
+    "mtime": 1776156798.0,
+    "ast_hash": "854bc96c6126d8be2fa2657e0769a0db",
+    "semantic_hash": "854bc96c6126d8be2fa2657e0769a0db"
+  },
+  "Training/chatgpt_export/message_feedback.json": {
+    "mtime": 1776156798.0,
+    "ast_hash": "d751713988987e9331980363e24189ce",
+    "semantic_hash": "d751713988987e9331980363e24189ce"
+  },
+  "Training/chatgpt_export/shared_conversations.json": {
+    "mtime": 1776156798.0,
+    "ast_hash": "be45242de6fae8fd33a942ff7c66c9e0",
+    "semantic_hash": "be45242de6fae8fd33a942ff7c66c9e0"
+  },
+  "Training/chatgpt_export/shopping.json": {
+    "mtime": 1776156798.0,
+    "ast_hash": "d751713988987e9331980363e24189ce",
+    "semantic_hash": "d751713988987e9331980363e24189ce"
+  },
+  "Training/chatgpt_export/user.json": {
+    "mtime": 1776156798.0,
+    "ast_hash": "aa5c43e8a9be434170cf96733c86508a",
+    "semantic_hash": "aa5c43e8a9be434170cf96733c86508a"
+  },
+  "Training/dataset/dataset_stats.json": {
+    "mtime": 1776156970.0,
+    "ast_hash": "f63d17ac3cbaabda48a6ce4e4e61b505",
+    "semantic_hash": "f63d17ac3cbaabda48a6ce4e4e61b505"
+  },
+  "Training/gradlew": {
+    "mtime": 1626415845.0,
+    "ast_hash": "857faf4b42fc9e324fb40b7223f2a94a",
+    "semantic_hash": "857faf4b42fc9e324fb40b7223f2a94a"
+  },
+  "Training/knowledge/conversation_index.json": {
+    "mtime": 1776157987.0,
+    "ast_hash": "93634c1d03bd78c4910b06a1ecceb6b6",
+    "semantic_hash": "93634c1d03bd78c4910b06a1ecceb6b6"
+  },
+  "Training/knowledge/facts.json": {
+    "mtime": 1776157987.0,
+    "ast_hash": "7381336a7739d4da8da068fc8e94c7ac",
+    "semantic_hash": "7381336a7739d4da8da068fc8e94c7ac"
+  },
+  "Training/package.json": {
+    "mtime": 1762701274.0,
+    "ast_hash": "7ef9e9a4451a2dc2d52ca7accf810178",
+    "semantic_hash": "7ef9e9a4451a2dc2d52ca7accf810178"
+  },
+  "Training/pom.xml": {
+    "mtime": 1626415845.0,
+    "ast_hash": "ef0159518ca39af3a3733c45aafb28df",
+    "semantic_hash": "ef0159518ca39af3a3733c45aafb28df"
+  },
+  "Training/train_custom.py": {
+    "mtime": 1776162023.0,
+    "ast_hash": "24fe00061923289794f45262caab3713",
+    "semantic_hash": "24fe00061923289794f45262caab3713"
+  },
+  "Training/train_robust.py": {
+    "mtime": 1776160777.0,
+    "ast_hash": "57e0ba7a823f503867c8d000e6c41e14",
+    "semantic_hash": "57e0ba7a823f503867c8d000e6c41e14"
+  },
+  "config/models.json": {
+    "mtime": 1776472989.4091852,
+    "ast_hash": "034c82ed6f3ab96d94070c6829fe3fa4",
+    "semantic_hash": "034c82ed6f3ab96d94070c6829fe3fa4"
+  },
+  "engine/__init__.py": {
+    "mtime": 1776155392.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "engine/chat.py": {
+    "mtime": 1776188207.5990841,
+    "ast_hash": "0dbf63a472590590fa2200ba43d39a36",
+    "semantic_hash": "0dbf63a472590590fa2200ba43d39a36"
+  },
+  "engine/main.py": {
+    "mtime": 1776187853.2339256,
+    "ast_hash": "de096724c509797bd29ab230a61b222a",
+    "semantic_hash": "de096724c509797bd29ab230a61b222a"
+  },
+  "engine/scheduler.py": {
+    "mtime": 1776155452.0,
+    "ast_hash": "e297f38e70afd28a424d02e4041aa541",
+    "semantic_hash": "e297f38e70afd28a424d02e4041aa541"
+  },
+  "engine/tasks/__init__.py": {
+    "mtime": 1776155392.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "engine/tasks/calendar.py": {
+    "mtime": 1776155426.0,
+    "ast_hash": "5113d3c8793ba7da2d8f98b76b7139ee",
+    "semantic_hash": "5113d3c8793ba7da2d8f98b76b7139ee"
+  },
+  "engine/tasks/news.py": {
+    "mtime": 1776155426.0,
+    "ast_hash": "380230d0d8c7edd8840a8505208ff8ec",
+    "semantic_hash": "380230d0d8c7edd8840a8505208ff8ec"
+  },
+  "engine/tools/__init__.py": {
+    "mtime": 1776155392.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "engine/tools/llm.py": {
+    "mtime": 1776473148.4017117,
+    "ast_hash": "57b03db02d2f7a1e55a6c18e247ca84f",
+    "semantic_hash": "57b03db02d2f7a1e55a6c18e247ca84f"
+  },
+  "runpod/entrypoint.sh": {
+    "mtime": 1776455185.144121,
+    "ast_hash": "9ebd632f9b1e9aad0d698de57cd2c209",
+    "semantic_hash": "9ebd632f9b1e9aad0d698de57cd2c209"
+  },
+  "scripts/build-push-runpod.sh": {
+    "mtime": 1776460603.3207166,
+    "ast_hash": "bdd7680c30b72852ce80833d917ba98f",
+    "semantic_hash": "bdd7680c30b72852ce80833d917ba98f"
+  },
+  "scripts/deploy-runpod.py": {
+    "mtime": 1776473215.6403913,
+    "ast_hash": "e317dbf30f15fa201176f7dd49c6c5bb",
+    "semantic_hash": "e317dbf30f15fa201176f7dd49c6c5bb"
+  },
+  "scripts/download-models.sh": {
+    "mtime": 1776455185.1441844,
+    "ast_hash": "3ab13ce402f648493019d1ed3c999e83",
+    "semantic_hash": "3ab13ce402f648493019d1ed3c999e83"
+  },
+  "scripts/fuse-adapters.sh": {
+    "mtime": 1776157915.0,
+    "ast_hash": "2ea8d1a47b71c40e590cc0633b3b80ba",
+    "semantic_hash": "2ea8d1a47b71c40e590cc0633b3b80ba"
+  },
+  "scripts/install-services.sh": {
+    "mtime": 1776155511.0,
+    "ast_hash": "3fdb280a6e456ece23cb1601936aee4b",
+    "semantic_hash": "3fdb280a6e456ece23cb1601936aee4b"
+  },
+  "scripts/runpod-boot.sh": {
+    "mtime": 1776473191.1878753,
+    "ast_hash": "4b63d14971c20dfa087e02e6c9c94c0a",
+    "semantic_hash": "4b63d14971c20dfa087e02e6c9c94c0a"
+  },
+  "scripts/start.sh": {
+    "mtime": 1776455185.1440718,
+    "ast_hash": "81f66110fa9af2ec2dd21d55a616f7e7",
+    "semantic_hash": "81f66110fa9af2ec2dd21d55a616f7e7"
+  },
+  "scripts/stop.sh": {
+    "mtime": 1776455185.1441572,
+    "ast_hash": "ecfe3a78118b18fc90705b0ca2adedf1",
+    "semantic_hash": "ecfe3a78118b18fc90705b0ca2adedf1"
+  },
+  "scripts/switch-model.sh": {
+    "mtime": 1776455185.1439614,
+    "ast_hash": "5491a3d2d775bba89e2a3c2b8b1ec444",
+    "semantic_hash": "5491a3d2d775bba89e2a3c2b8b1ec444"
+  },
+  "scripts/switch-openclaw-model.sh": {
+    "mtime": 1776192761.6590261,
+    "ast_hash": "dd313e9290696d0980655065b6b63f27",
+    "semantic_hash": "dd313e9290696d0980655065b6b63f27"
+  },
+  "scripts/train-lora-chunked.sh": {
+    "mtime": 1776162858.0,
+    "ast_hash": "a70b55e29ac5c64c02278814a003e34b",
+    "semantic_hash": "a70b55e29ac5c64c02278814a003e34b"
+  },
+  "scripts/train-lora.sh": {
+    "mtime": 1776158201.0,
+    "ast_hash": "c9cafdc927d26ec043b8b38f4a8317c1",
+    "semantic_hash": "c9cafdc927d26ec043b8b38f4a8317c1"
+  },
+  "scripts/uninstall-services.sh": {
+    "mtime": 1776155511.0,
+    "ast_hash": "c4df281d4b5bab5bdce6e8870e6c566b",
+    "semantic_hash": "c4df281d4b5bab5bdce6e8870e6c566b"
+  },
+  "scripts/watch-training.sh": {
+    "mtime": 1776157927.0,
+    "ast_hash": "64648e98a3027eed2fa63b8d3dddbf09",
+    "semantic_hash": "64648e98a3027eed2fa63b8d3dddbf09"
+  },
+  "README.md": {
+    "mtime": 1776188207.585061,
+    "ast_hash": "efaca9672bb243b5c0364f93a61daeb9",
+    "semantic_hash": "efaca9672bb243b5c0364f93a61daeb9"
+  },
+  "Training/First Html Assignment.html": {
+    "mtime": 1495141951.0,
+    "ast_hash": "b0e57a355336907a9c06b3969e1b795f",
+    "semantic_hash": "b0e57a355336907a9c06b3969e1b795f"
+  },
+  "Training/README.md": {
+    "mtime": 1626415845.0,
+    "ast_hash": "3d97e2f26b42882d7f6e20b21c5ab5a3",
+    "semantic_hash": "3d97e2f26b42882d7f6e20b21c5ab5a3"
+  },
+  "Training/README__v4.md": {
+    "mtime": 1762702348.0,
+    "ast_hash": "7a95b6a2cea895cc321cde9f91923eb6",
+    "semantic_hash": "7a95b6a2cea895cc321cde9f91923eb6"
+  },
+  "Training/Rusty.html": {
+    "mtime": 1495151987.0,
+    "ast_hash": "0e19a8178598caa32f43b6006f97726e",
+    "semantic_hash": "0e19a8178598caa32f43b6006f97726e"
+  },
+  "Training/Search by keyword 2.txt": {
+    "mtime": 1626747585.0,
+    "ast_hash": "06a86eb381c952ffb6c173fbded9a1b0",
+    "semantic_hash": "06a86eb381c952ffb6c173fbded9a1b0"
+  },
+  "Training/Search by keyword.txt": {
+    "mtime": 1626747702.0,
+    "ast_hash": "42d273aaa7224a9ce433c09918770fed",
+    "semantic_hash": "42d273aaa7224a9ce433c09918770fed"
+  },
+  "Training/Solution.html": {
+    "mtime": 1496200863.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/aboutme.html": {
+    "mtime": 1495237808.0,
+    "ast_hash": "e4711eeabf834c0273235068a84b5f8b",
+    "semantic_hash": "e4711eeabf834c0273235068a84b5f8b"
+  },
+  "Training/chatgpt_export/chat.html": {
+    "mtime": 1776156798.0,
+    "ast_hash": "7889fdd05b5d50612952c4cff4cfe45a",
+    "semantic_hash": "7889fdd05b5d50612952c4cff4cfe45a"
+  },
+  "Training/firstPage.html": {
+    "mtime": 1495152132.0,
+    "ast_hash": "713b6572795c07d4ba74927bd6c5dc39",
+    "semantic_hash": "713b6572795c07d4ba74927bd6c5dc39"
+  },
+  "Training/gradle.yml": {
+    "mtime": 1626415845.0,
+    "ast_hash": "98e6f8a1b8a0a47a019eca5299dfbb62",
+    "semantic_hash": "98e6f8a1b8a0a47a019eca5299dfbb62"
+  },
+  "Training/knowledge/system_prompt.md": {
+    "mtime": 1776157987.0,
+    "ast_hash": "1f729b4dfed9845fd7efeb6ee67e7b97",
+    "semantic_hash": "1f729b4dfed9845fd7efeb6ee67e7b97"
+  },
+  "Training/lora_config.yaml": {
+    "mtime": 1776157120.0,
+    "ast_hash": "a22ad6f9597764dec5af5096e98fde78",
+    "semantic_hash": "a22ad6f9597764dec5af5096e98fde78"
+  },
+  "Training/maven.yml": {
+    "mtime": 1626415845.0,
+    "ast_hash": "eefd0b94dee888f6f6a17e1a00de22e6",
+    "semantic_hash": "eefd0b94dee888f6f6a17e1a00de22e6"
+  },
+  "docker-compose.yml": {
+    "mtime": 1776187853.2111707,
+    "ast_hash": "631608c36b8bc5b5300b77b858456889",
+    "semantic_hash": "631608c36b8bc5b5300b77b858456889"
+  },
+  "engine/requirements.txt": {
+    "mtime": 1776155392.0,
+    "ast_hash": "8518d9067ec38f11f107a9d0ab696bba",
+    "semantic_hash": "8518d9067ec38f11f107a9d0ab696bba"
+  },
+  "Training/1098 2020.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/1098.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/2023-07-20__01Admin__Mohammed Alam Birth Certificate.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/2023-07-20__01Admin__Mohammed Alam Marriage Certificate.pdf": {
+    "mtime": 1770569745.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/2024-01-23__01Admin__Evidence of Insurance 875 Bridle Dr.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Appraisal Order Form.pdf": {
+    "mtime": 1707323875.0,
+    "ast_hash": "b150257fe85b5406710e0ce0d476a24d",
+    "semantic_hash": "b150257fe85b5406710e0ce0d476a24d"
+  },
+  "Training/April_2023.pdf": {
+    "mtime": 1706824184.0,
+    "ast_hash": "1dc2df92f404d0f8bca775b631261cb4",
+    "semantic_hash": "1dc2df92f404d0f8bca775b631261cb4"
+  },
+  "Training/August_2023.pdf": {
+    "mtime": 1706824160.0,
+    "ast_hash": "d34127be1c35cc3f15f410c2abf0613a",
+    "semantic_hash": "d34127be1c35cc3f15f410c2abf0613a"
+  },
+  "Training/Binder_Balcony & Deck-101220.pdf": {
+    "mtime": 1604279206.0,
+    "ast_hash": "b935be1e0edd7c1296db0e3393722aa1",
+    "semantic_hash": "b935be1e0edd7c1296db0e3393722aa1"
+  },
+  "Training/Biodata of Mohammed K Alam.pdf": {
+    "mtime": 1544505464.0,
+    "ast_hash": "a7972ecf7d6277a13d667459c8a33dc8",
+    "semantic_hash": "a7972ecf7d6277a13d667459c8a33dc8"
+  },
+  "Training/Check.pdf": {
+    "mtime": 1643674229.0,
+    "ast_hash": "78a8120f648a25eb7dea1eda65b46bb4",
+    "semantic_hash": "78a8120f648a25eb7dea1eda65b46bb4"
+  },
+  "Training/Co-Buyer's Final Signature Document.pdf": {
+    "mtime": 1707323026.0,
+    "ast_hash": "60e7ebb0c74ed40d1c570ad4b972c09c",
+    "semantic_hash": "60e7ebb0c74ed40d1c570ad4b972c09c"
+  },
+  "Training/Corona safety.pdf.pdf": {
+    "mtime": 1583535903.0,
+    "ast_hash": "c597e3a1077dcbdf097aa43af50a4249",
+    "semantic_hash": "c597e3a1077dcbdf097aa43af50a4249"
+  },
+  "Training/DS11_Complete.pdf": {
+    "mtime": 1770569745.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/DS82_Complete.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/December_2023.pdf": {
+    "mtime": 1706824140.0,
+    "ast_hash": "f5875ca74548bf7798e956301fa046d6",
+    "semantic_hash": "f5875ca74548bf7798e956301fa046d6"
+  },
+  "Training/EIN Confirmation.pdf": {
+    "mtime": 1770569745.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Farmers Auto ID.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Form G-28.pdf": {
+    "mtime": 1689961996.0,
+    "ast_hash": "1336049f93cb31adcf72c84959ea480c",
+    "semantic_hash": "1336049f93cb31adcf72c84959ea480c"
+  },
+  "Training/Gift Letter.pdf": {
+    "mtime": 1707324393.0,
+    "ast_hash": "b7cd974b535cb894d6580493a94fc3ca",
+    "semantic_hash": "b7cd974b535cb894d6580493a94fc3ca"
+  },
+  "Training/Home Plumbing Replacement Verification (1).pdf": {
+    "mtime": 1712084898.0,
+    "ast_hash": "9f0d5461a30c40051d9b094bc04e421f",
+    "semantic_hash": "9f0d5461a30c40051d9b094bc04e421f"
+  },
+  "Training/IS-mTLS with Experian US-291123-133822.pdf": {
+    "mtime": 1706226800.0,
+    "ast_hash": "80d67983f78e8cc6b68fab27f253c75a",
+    "semantic_hash": "80d67983f78e8cc6b68fab27f253c75a"
+  },
+  "Training/January_2024.pdf": {
+    "mtime": 1706823747.0,
+    "ast_hash": "5cfde23157eca0a64a4f76f50177e31e",
+    "semantic_hash": "5cfde23157eca0a64a4f76f50177e31e"
+  },
+  "Training/July_2023.pdf": {
+    "mtime": 1706824167.0,
+    "ast_hash": "4f422c5c087a351bb77ca4cd147adb65",
+    "semantic_hash": "4f422c5c087a351bb77ca4cd147adb65"
+  },
+  "Training/June_2023.pdf": {
+    "mtime": 1706824172.0,
+    "ast_hash": "93270e1162650c833affe232ba042ae5",
+    "semantic_hash": "93270e1162650c833affe232ba042ae5"
+  },
+  "Training/LLC Termination | California Secretary of State.pdf": {
+    "mtime": 1770569745.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Letter.pdf": {
+    "mtime": 1709842432.0,
+    "ast_hash": "03d1b2566d889b68e99cef85db58644d",
+    "semantic_hash": "03d1b2566d889b68e99cef85db58644d"
+  },
+  "Training/Marriage Certificate Mohammad Shahidullah Kaiser Rezwana Kaiser.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/May_2023.pdf": {
+    "mtime": 1706824178.0,
+    "ast_hash": "b75876ff8fd71e02920ae5c3bc5cbbd1",
+    "semantic_hash": "b75876ff8fd71e02920ae5c3bc5cbbd1"
+  },
+  "Training/Memberlist_Checked.pdf": {
+    "mtime": 1700284776.0,
+    "ast_hash": "bf5b32f814675e254ec74a640e2f2e1c",
+    "semantic_hash": "bf5b32f814675e254ec74a640e2f2e1c"
+  },
+  "Training/Mohammed Alam - Divorce Decree.pdf": {
+    "mtime": 1689890446.0,
+    "ast_hash": "de3173b80401e5620309bb5b54de7841",
+    "semantic_hash": "de3173b80401e5620309bb5b54de7841"
+  },
+  "Training/Moniruzzaman w4.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/November_2023.pdf": {
+    "mtime": 1706824145.0,
+    "ast_hash": "b10661de1756719d4800a647ed257cf0",
+    "semantic_hash": "b10661de1756719d4800a647ed257cf0"
+  },
+  "Training/Nusaiba Kaiser - Birth Certificate.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Nusaiba Kaiser - CA State ID.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Nusaiba Kaiser - Green-card .pdf": {
+    "mtime": 1770569745.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Nusaiba Kaiser - SSN.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Nusaiba Kaiser 515K Wire.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Nusaiba Kaiser Birth Certificate.pdf": {
+    "mtime": 1770569745.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Nusaiba Kaiser DS-260.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/October_2023.pdf": {
+    "mtime": 1706824149.0,
+    "ast_hash": "cb3dabcb12346883a3fa5b791bf96e80",
+    "semantic_hash": "cb3dabcb12346883a3fa5b791bf96e80"
+  },
+  "Training/Paychecks and Bonus Check.pdf": {
+    "mtime": 1706749716.0,
+    "ast_hash": "33a12a9f187ca6db4c20939a9c270dac",
+    "semantic_hash": "33a12a9f187ca6db4c20939a9c270dac"
+  },
+  "Training/Paystubs_0430_0515.pdf": {
+    "mtime": 1770569745.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Prity Mandal ds11.pdf": {
+    "mtime": 1770569745.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Privacy Notice.pdf": {
+    "mtime": 1707323103.0,
+    "ast_hash": "f68efa57aeac0f14e11af67f7106455a",
+    "semantic_hash": "f68efa57aeac0f14e11af67f7106455a"
+  },
+  "Training/Rezwana Kaiser Popy Birth Certificate.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Savings 7206 To Checking 5500 Transfer.pdf": {
+    "mtime": 1707323381.0,
+    "ast_hash": "95f3c61eca04eb869ba7d80163e81e9e",
+    "semantic_hash": "95f3c61eca04eb869ba7d80163e81e9e"
+  },
+  "Training/Scan.pdf": {
+    "mtime": 1769546070.0,
+    "ast_hash": "2028adb9a56fe7c6cb631f14cb08edac",
+    "semantic_hash": "2028adb9a56fe7c6cb631f14cb08edac"
+  },
+  "Training/September_2023.pdf": {
+    "mtime": 1706824155.0,
+    "ast_hash": "0860b3d9980e403a232764ad96dca36e",
+    "semantic_hash": "0860b3d9980e403a232764ad96dca36e"
+  },
+  "Training/Shahidullah Kaiser Birth Certificate.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/Singled pages.pdf": {
+    "mtime": 1689963829.0,
+    "ast_hash": "251c3ba019122c45ad5c10b68e2b15cb",
+    "semantic_hash": "251c3ba019122c45ad5c10b68e2b15cb"
+  },
+  "Training/Zakaria Alam Birth Certificate.pdf": {
+    "mtime": 1770569745.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/i-864.pdf": {
+    "mtime": 1770569746.0,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "Training/img20241002_12112225-1.pdf": {
+    "mtime": 1727923965.0,
+    "ast_hash": "f1790c5cc4c299a913dc60e2d9ae9e21",
+    "semantic_hash": "f1790c5cc4c299a913dc60e2d9ae9e21"
+  },
+  "Training/chatgpt_export/38044aac814592a#file_00000000bd8071fd8adffc46688e0822#p_10.jpg-p_10.jpg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "c9cb02a9bdabb05b7fa7096bfe7a6083",
+    "semantic_hash": "c9cb02a9bdabb05b7fa7096bfe7a6083"
+  },
+  "Training/chatgpt_export/5b18e75fb879519#file_00000000bd8071fd8adffc46688e0822#p_1.jpg-p_1.jpg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "3409529af0c73f94a650b2fd6a8e9ab8",
+    "semantic_hash": "3409529af0c73f94a650b2fd6a8e9ab8"
+  },
+  "Training/chatgpt_export/e57dc4b2ae3e7d9#file_00000000bd8071fd8adffc46688e0822#p_3.jpg-p_3.jpg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "a382af79dbaf49e85fb9f9131c263a87",
+    "semantic_hash": "a382af79dbaf49e85fb9f9131c263a87"
+  },
+  "Training/chatgpt_export/e9bbc8a28eb6da7#file_00000000bd8071fd8adffc46688e0822#p_0.jpg-p_0.jpg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "b70c7014a5b82a9b7c49519361e35f2f",
+    "semantic_hash": "b70c7014a5b82a9b7c49519361e35f2f"
+  },
+  "Training/chatgpt_export/file_000000001d147206aec011fd66158f80-sanitized.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "6b0b3c5e82abfb5a250115dc2be08837",
+    "semantic_hash": "6b0b3c5e82abfb5a250115dc2be08837"
+  },
+  "Training/chatgpt_export/file_00000000284c7206b345bc742d7e76d0-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "ef4c0dcab302f5dcc4730c564f560ed8",
+    "semantic_hash": "ef4c0dcab302f5dcc4730c564f560ed8"
+  },
+  "Training/chatgpt_export/file_000000002efc71f5a55dbc5c98f65ede-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "0fdb6872c59fd53cbb19fde887660fa8",
+    "semantic_hash": "0fdb6872c59fd53cbb19fde887660fa8"
+  },
+  "Training/chatgpt_export/file_0000000040f87209b6ddfc6904bf60cd-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "8e4b738d3f05a176ce6aeb4201f1cc31",
+    "semantic_hash": "8e4b738d3f05a176ce6aeb4201f1cc31"
+  },
+  "Training/chatgpt_export/file_000000004174720796a9e82d088dc85e-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "ea29a3f146a015382a6fbb30e605dfdf",
+    "semantic_hash": "ea29a3f146a015382a6fbb30e605dfdf"
+  },
+  "Training/chatgpt_export/file_0000000049907209b8b63cfa2425ae76-sanitized.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "2d1047d21f7eb14eabf0cf2f085a317a",
+    "semantic_hash": "2d1047d21f7eb14eabf0cf2f085a317a"
+  },
+  "Training/chatgpt_export/file_000000004a8c71f5a0a75382c23a8bc1-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "f338a9014690bdcb42824e7cbf3ae043",
+    "semantic_hash": "f338a9014690bdcb42824e7cbf3ae043"
+  },
+  "Training/chatgpt_export/file_000000004be87207805e4e7dd9fef02d-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "544bb9205c1a8b139ad56a6e5bfe1318",
+    "semantic_hash": "544bb9205c1a8b139ad56a6e5bfe1318"
+  },
+  "Training/chatgpt_export/file_000000004eb07207a76b78abf7a25619-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "9e704bdca7f9b69ee2364d2b04498230",
+    "semantic_hash": "9e704bdca7f9b69ee2364d2b04498230"
+  },
+  "Training/chatgpt_export/file_0000000050b061f780cdab004cf0c31a-sanitized.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "991167324708e842bcc9115e064b0743",
+    "semantic_hash": "991167324708e842bcc9115e064b0743"
+  },
+  "Training/chatgpt_export/file_0000000054f0720cbe1e95f87e557017-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "8e70753927b26f082b296877292b19b6",
+    "semantic_hash": "8e70753927b26f082b296877292b19b6"
+  },
+  "Training/chatgpt_export/file_000000005e6c7206b9da57f2d6d176d8-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "69b6e8127a292c788572c5ef42ffa4bc",
+    "semantic_hash": "69b6e8127a292c788572c5ef42ffa4bc"
+  },
+  "Training/chatgpt_export/file_00000000609c61f788e2d332ffabeada-sanitized.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "7f7aad95fc5f9ea7661c27558c45b4db",
+    "semantic_hash": "7f7aad95fc5f9ea7661c27558c45b4db"
+  },
+  "Training/chatgpt_export/file_0000000065887206a08f1d18771da132-sanitized.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "2372f206d6baf44601f6f41543cde690",
+    "semantic_hash": "2372f206d6baf44601f6f41543cde690"
+  },
+  "Training/chatgpt_export/file_000000006af07206a42fc0d56584d1b7-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "1ed7e73980ab50a1819cf2983ed49773",
+    "semantic_hash": "1ed7e73980ab50a1819cf2983ed49773"
+  },
+  "Training/chatgpt_export/file_000000006e287206982f2377f07b3e71-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "671625d53cba299119e52e9d148b0780",
+    "semantic_hash": "671625d53cba299119e52e9d148b0780"
+  },
+  "Training/chatgpt_export/file_000000006e6472069c85067ab484289d-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "c6090bd9bd11301c08f8d7db9fa4770f",
+    "semantic_hash": "c6090bd9bd11301c08f8d7db9fa4770f"
+  },
+  "Training/chatgpt_export/file_0000000072387209a22192c6d4ba4112-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "619e4dbe4a6fb85130abacdc1f1fb0d4",
+    "semantic_hash": "619e4dbe4a6fb85130abacdc1f1fb0d4"
+  },
+  "Training/chatgpt_export/file_000000007438722f949546d97cc4c562-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "1cc855c21eef67f02f707ff002328505",
+    "semantic_hash": "1cc855c21eef67f02f707ff002328505"
+  },
+  "Training/chatgpt_export/file_000000007f4472069cb926628be637e3-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "be9d9c053b9d6b7b558e9de2976c30ec",
+    "semantic_hash": "be9d9c053b9d6b7b558e9de2976c30ec"
+  },
+  "Training/chatgpt_export/file_0000000083dc72068ca08378e06ee3e5-sanitized.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "2d1047d21f7eb14eabf0cf2f085a317a",
+    "semantic_hash": "2d1047d21f7eb14eabf0cf2f085a317a"
+  },
+  "Training/chatgpt_export/file_000000008b6072068e09562f36de4434-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "0abc85398683f9d46b8fedc8edc2bdd1",
+    "semantic_hash": "0abc85398683f9d46b8fedc8edc2bdd1"
+  },
+  "Training/chatgpt_export/file_000000008d3471fda8fbce8a19bcc388-sanitized.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "23623667880698bd2ce1c5c67e2d30d7",
+    "semantic_hash": "23623667880698bd2ce1c5c67e2d30d7"
+  },
+  "Training/chatgpt_export/file_000000008d68720780d0f10c3b775628-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "d83608cb49c0046e5af2347bba2a5800",
+    "semantic_hash": "d83608cb49c0046e5af2347bba2a5800"
+  },
+  "Training/chatgpt_export/file_000000009a7472069b7b4a8678503401-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "07ab43f7d518c41f8012090aae518c95",
+    "semantic_hash": "07ab43f7d518c41f8012090aae518c95"
+  },
+  "Training/chatgpt_export/file_00000000a00c7209a3b138cefe7bc739-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "3aba7177bc43e760b5687cfb5d88d77e",
+    "semantic_hash": "3aba7177bc43e760b5687cfb5d88d77e"
+  },
+  "Training/chatgpt_export/file_00000000a0b07209aba3f6d5b9bd100d-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "dcb76f142f63b872dbadb1cec93919cf",
+    "semantic_hash": "dcb76f142f63b872dbadb1cec93919cf"
+  },
+  "Training/chatgpt_export/file_00000000a4587206b9e39d9efdeb0d0b-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "33d111bff9c76cdbc464f351d29b27e8",
+    "semantic_hash": "33d111bff9c76cdbc464f351d29b27e8"
+  },
+  "Training/chatgpt_export/file_00000000a5b87206ad39bf9b23129e8c-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "890c4bca2f2be93922f38958ad546027",
+    "semantic_hash": "890c4bca2f2be93922f38958ad546027"
+  },
+  "Training/chatgpt_export/file_00000000aa5c7209b5e61407a7ab8009-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "0eca49988f07de2972e2dbb4ab2c48d1",
+    "semantic_hash": "0eca49988f07de2972e2dbb4ab2c48d1"
+  },
+  "Training/chatgpt_export/file_00000000b01872069bc7a369f8e667d0-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "1ed7e73980ab50a1819cf2983ed49773",
+    "semantic_hash": "1ed7e73980ab50a1819cf2983ed49773"
+  },
+  "Training/chatgpt_export/file_00000000bb687206925b0ca74a4322d2-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "b30c0a9dbf2b8c0b51b4d2b2534250b8",
+    "semantic_hash": "b30c0a9dbf2b8c0b51b4d2b2534250b8"
+  },
+  "Training/chatgpt_export/file_00000000bdf87206b25cfd4b9039c430-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "9d857fec6588ea58ce2217e7786e8766",
+    "semantic_hash": "9d857fec6588ea58ce2217e7786e8766"
+  },
+  "Training/chatgpt_export/file_00000000bef8720682b4698ed479f5ab-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "9e3504b877ece0e8ba742db570f0731a",
+    "semantic_hash": "9e3504b877ece0e8ba742db570f0731a"
+  },
+  "Training/chatgpt_export/file_00000000c7a0720989433bd0d9d296a3-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "8d83dabb0cdfe46bd7554b02a99d41a6",
+    "semantic_hash": "8d83dabb0cdfe46bd7554b02a99d41a6"
+  },
+  "Training/chatgpt_export/file_00000000cd5c720686d05473e72bcf5e-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "147c9e515d20b0490a04e527fda73265",
+    "semantic_hash": "147c9e515d20b0490a04e527fda73265"
+  },
+  "Training/chatgpt_export/file_00000000d5b472069df639eef783fff9-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "9e3504b877ece0e8ba742db570f0731a",
+    "semantic_hash": "9e3504b877ece0e8ba742db570f0731a"
+  },
+  "Training/chatgpt_export/file_00000000dcc4720895b3442ee0bfa548-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "27d4dcafb24799132fc9cdf43ba0cbcd",
+    "semantic_hash": "27d4dcafb24799132fc9cdf43ba0cbcd"
+  },
+  "Training/chatgpt_export/file_00000000e6947208998ac05201a3b35d-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "a32ba9dfa4aac9864959dfe2e70f18dd",
+    "semantic_hash": "a32ba9dfa4aac9864959dfe2e70f18dd"
+  },
+  "Training/chatgpt_export/file_00000000e9bc72099fe0e21bf569a4b1-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "723671591c973ffb27b3e6fe50315426",
+    "semantic_hash": "723671591c973ffb27b3e6fe50315426"
+  },
+  "Training/chatgpt_export/file_00000000f49871f8830b8b114f00453f-sanitized.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "9ad36b47053607d90ae3b4a7b88b2806",
+    "semantic_hash": "9ad36b47053607d90ae3b4a7b88b2806"
+  },
+  "Training/chatgpt_export/file_00000000f784720896c5d6d5bbbc215a-sanitized.jpeg": {
+    "mtime": 1776156798.0,
+    "ast_hash": "27d4dcafb24799132fc9cdf43ba0cbcd",
+    "semantic_hash": "27d4dcafb24799132fc9cdf43ba0cbcd"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000022c7206b4e0409714483583-7ccae663-41a2-4b14-b45f-cb4dcc61e33d.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "ce203a992723eaeacc3f1446807e1766",
+    "semantic_hash": "ce203a992723eaeacc3f1446807e1766"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000014e47208bbf6cda03737a9a2-ba8b449f-5cfc-40a1-98d7-91484e6cd757.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "3f06ade1746146b62099cbeae89a45e5",
+    "semantic_hash": "3f06ade1746146b62099cbeae89a45e5"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000021807206ab12ff5450668586-6f306619-0d31-48fd-ab04-7895363cf647.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "efc63268892dfe769f268141da8a08fb",
+    "semantic_hash": "efc63268892dfe769f268141da8a08fb"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_000000003b2472068bc9606166c969f9-77ce2058-d557-4f0f-8a99-a2f46aa863e1.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "1f018e361e76ae0ee02452234921ae4a",
+    "semantic_hash": "1f018e361e76ae0ee02452234921ae4a"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_000000003ef872068a9deeaa3b72e764-cdb80734-bd87-4836-8a86-42728de3e20b.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "1c5dd35f154b592b4c76dec2430208a6",
+    "semantic_hash": "1c5dd35f154b592b4c76dec2430208a6"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000444872069d8684019ede3143-db554df8-4de5-44b0-a3c2-03d66b4807f8.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "1aa22e74667d21338b7304398fd4cced",
+    "semantic_hash": "1aa22e74667d21338b7304398fd4cced"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000477c720680af2b3889b93130-aab9225c-111d-4843-8726-8e31fd4f868c.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "e976dd2ff939444580e48081dff15ab9",
+    "semantic_hash": "e976dd2ff939444580e48081dff15ab9"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000048d072069d5a28415055ac94-0facd26e-a143-4e0b-b0aa-e3912c077de2.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "06950a3fd4098436b332c032d6beacdf",
+    "semantic_hash": "06950a3fd4098436b332c032d6beacdf"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000054c8720692d6497213d4adea-c8b66947-cf46-41e1-8f33-c47b9e36a2a5.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "fe7db18df323482358b5fcbaca8b1321",
+    "semantic_hash": "fe7db18df323482358b5fcbaca8b1321"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000063cc7206afc66f18002cc98c-c13dd1e3-7d5e-4aa5-8d87-a9959f2d778d.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "eb4bcab7fe7b53c1e76c355aa8aece00",
+    "semantic_hash": "eb4bcab7fe7b53c1e76c355aa8aece00"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000064b07208bea1023a858f9b5f-56eca89c-e66f-4d29-887d-ecb7cf22e765.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "6790436c2d5d8726aa7fbe8b5d15575a",
+    "semantic_hash": "6790436c2d5d8726aa7fbe8b5d15575a"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000067807208b9681456fcff35a7-c05aee35-89e1-4aeb-9f98-30886685cdeb.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "09408e11f58b87428650e6aecf0713c5",
+    "semantic_hash": "09408e11f58b87428650e6aecf0713c5"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000068a87206872b8aa0f1eea68a-814b1990-1095-4fab-97c0-9f5f58369f22.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "8447b53e5d92a3e8d3ae6c1413390e7d",
+    "semantic_hash": "8447b53e5d92a3e8d3ae6c1413390e7d"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000069787206b8a80eafbff82d85-cfe3d34a-35fe-4be5-a77f-080bb0b65cae.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "d1778d142a8bf86ed7114cfa204c28b0",
+    "semantic_hash": "d1778d142a8bf86ed7114cfa204c28b0"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_0000000082b47208817c9a71d2cc96c9-8968bb51-7539-4fab-a2c9-86073f64d74f.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "7b964a345c6fb47c503ae9c81fab1939",
+    "semantic_hash": "7b964a345c6fb47c503ae9c81fab1939"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_000000008d487208903e1ee23847f95d-528f4584-7271-4ea3-ba0f-416850ae6e7e.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "4b0c3f48d3249b96342864367f26433d",
+    "semantic_hash": "4b0c3f48d3249b96342864367f26433d"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_000000008d687206bd4d86e99639d441-41da3273-37a6-4d4e-9444-1bd6782c191e.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "2b0fa31a69a9eed254b3b62025366166",
+    "semantic_hash": "2b0fa31a69a9eed254b3b62025366166"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_000000009a007208b8f9b1aaaae8ecd2-8355057b-209f-4dc0-88c6-aca911814e1c.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "98297e2f4bc13934b4a6e72266410ab2",
+    "semantic_hash": "98297e2f4bc13934b4a6e72266410ab2"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000a17c7208b373bb24dbe5d747-7061de5a-620f-4aeb-adfe-d860e876a174.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "d87108a3a5a4f9049cbec1e7f16310d5",
+    "semantic_hash": "d87108a3a5a4f9049cbec1e7f16310d5"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000b1e87206986130ade03bf9de-6c3f7ecb-2343-40c5-9242-91a1f54ff01b.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "434cebf6a82eedfad649f5e49b69e00a",
+    "semantic_hash": "434cebf6a82eedfad649f5e49b69e00a"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000c7647206affff1f132e5ab60-f7eb96f0-17bf-41e7-bbde-f30ad136f93b.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "b050e69c7bf3f00ffce507accbbfe5e8",
+    "semantic_hash": "b050e69c7bf3f00ffce507accbbfe5e8"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000dd407206a39ff2548563fa98-a8b47f02-5e15-4bf0-9232-9c813e17da1e.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "5b60f217431b95d047de14ebf541111d",
+    "semantic_hash": "5b60f217431b95d047de14ebf541111d"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000e32c720690e0ec07e4c84638-af46303b-0830-4663-9eb4-bef3b821513f.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "e5ea9a509f6fdd765f4ec99db3fa9ef2",
+    "semantic_hash": "e5ea9a509f6fdd765f4ec99db3fa9ef2"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000e5647206b89e34fe110b4579-937d5459-93a3-44c3-b98c-9b73168836f6.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "faadc351373b243a15d20624f81f7ae1",
+    "semantic_hash": "faadc351373b243a15d20624f81f7ae1"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000e85c7206bce7812858c53947-e0a9e945-f732-47a2-916e-ec692e84e69b.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "0ef0a9156aa05053e7b7272d590e8a86",
+    "semantic_hash": "0ef0a9156aa05053e7b7272d590e8a86"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000eabc72069ddb19a80c98f8b1-5fba983e-6666-4690-97d4-14cf80c7bf47.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "7c9c2c51e4b0ab1a682554835a8b6e6a",
+    "semantic_hash": "7c9c2c51e4b0ab1a682554835a8b6e6a"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000f1447208be19a17beb61dc68-f36f8e49-bcc2-4a3c-9839-b0629906d45a.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "e3fe22b3657ceda66389d1ad83b9c6ef",
+    "semantic_hash": "e3fe22b3657ceda66389d1ad83b9c6ef"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000f7a07208b4a58f2c75048369-b2397984-a479-4610-a779-c240f96d27bf.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "aca24be332271017784a1a33d7bda84d",
+    "semantic_hash": "aca24be332271017784a1a33d7bda84d"
+  },
+  "Training/chatgpt_export/user-fcwBX8XrBcuwOj01Sbh55qYz/file_00000000fcd87206ba459e39543b473f-a01f1153-a73a-481d-9808-af0acc23f861.png": {
+    "mtime": 1776156798.0,
+    "ast_hash": "3d0735766786c6bd18f29c54590c4ab4",
+    "semantic_hash": "3d0735766786c6bd18f29c54590c4ab4"
+  },
+  "Training/chatgpt_export/693f5a25-764c-832d-b70f-4d04380db4fe/audio/file_0000000053047208b2c9ad5f7a86c49d-0f4c2b99-e72c-4646-92d1-a4e6dd85ef9b.wav": {
+    "mtime": 1776156798.0,
+    "ast_hash": "ffa97cba03e0201d8a941e4cd895dbd2",
+    "semantic_hash": "ffa97cba03e0201d8a941e4cd895dbd2"
+  }
+}
